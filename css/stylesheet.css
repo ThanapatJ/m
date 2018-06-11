@@ -21,7 +21,7 @@ html,body {
 .loader.hidden{
   animation: fadeload 1s;
   animation-fill-mode: forwards;
-} 
+}
 @-webkit-keyframes fadeload {
   100% {
     opacity: 0;
@@ -695,7 +695,7 @@ transition-duration: 200ms;
       height: 100%;
       position: absolute;
       background-position: center;
-      top: 0;
+      top: 5%;
       left: -2%;
       z-index: 1;
 
