@@ -788,8 +788,6 @@ transition-duration: 200ms;
     width: 33.3333%;
     position: relative;
     text-align: center;
-    z-index: 1;
-
 }
 .eduline li::before{
       content: '';
