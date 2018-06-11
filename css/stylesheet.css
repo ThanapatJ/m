@@ -773,6 +773,7 @@ transition-duration: 200ms;
   font-family: 'Coming Soon', cursive;
   line-height: 25px;
   font-size: .85rem;
+
 }
 .edutext{
   margin-top: 50px;
@@ -787,6 +788,7 @@ transition-duration: 200ms;
     width: 33.3333%;
     position: relative;
     text-align: center;
+    z-index: 1;
 
 }
 .eduline li::before{
@@ -828,6 +830,7 @@ transition-duration: 200ms;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+
 }
 .timeline3::before{
   content: '';
@@ -947,6 +950,7 @@ transition-duration: 200ms;
   border-radius: 10px;
   font-family: 'Comfortaa', cursive;
   font-size: 0.7rem;
+    z-index: 5;
 }
 .subskillsmain p{
   padding-left: 48px;
@@ -1300,6 +1304,7 @@ button {
 .eduline li::after{
     content: '';
     height: 0;
+
 }
 .eduline li{
     list-style: none;
