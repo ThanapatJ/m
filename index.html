@@ -52,6 +52,13 @@
   .eduline li::before{
     border-radius: 50%;
   }
+  @media (max-width: 320px){
+
+  .loader{
+    display: none;
+  }
+  }
+
 </style>
 </head>
 <body>
@@ -393,6 +400,7 @@
                     <div class="js-carousel-five">
                       <figure class="carousel__frame js-carousel__frame">
                             <div class="carousel__slides js-carousel__slides">
+                                  <img src="images/clickcampx/clickcamp0.jpg" class="carousel__item" />
                                   <img src="images/clickcampx/clickcamp1.jpg" class="carousel__item" />
                                   <img src="images/clickcampx/clickcampcer.jpg" class="carousel__item" />
                                   <img src="images/clickcampx/clickcamp2.jpg" class="carousel__item" />
@@ -866,6 +874,7 @@
 
 <!-- animation-->
       <script>
+      window.onload = function() {
                 var params = {
                     container: document.getElementById('lottie'),
                     renderer: 'svg',
@@ -875,6 +884,7 @@
                 };
                 var anim;
                 anim = lottie.loadAnimation(params);
+                }
             </script>
 
 <!--carousel test-->
